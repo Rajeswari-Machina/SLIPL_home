@@ -1,0 +1,29 @@
+.footer{
+  background-color: var(--dark-bg-color);
+  padding: 200px 0;
+  font-size: 13px; 
+
+  
+}
+.layout{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  gap: 30px;
+}
+.footerlist{
+  display:flex;
+  flex-direction:column;
+  gap: 40px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footerItem{
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}

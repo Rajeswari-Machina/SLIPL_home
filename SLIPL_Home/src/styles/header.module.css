@@ -1,0 +1,108 @@
+/* header.module.css */
+:root {
+  --primary-color: rgb(255, 255, 255);
+    --primary-opacity-color: rgba(255, 255, 255, .7);
+    --primary-middle-opacity-color: rgba(255, 255, 255, .5);
+    --primary-middle-plus-opacity-color: rgba(255, 255, 255, .6);
+    --primary-super-opacity-color: rgba(255, 255, 255, .4);
+    --primary-mini-opacity-color: rgba(255, 255, 255, .06);
+    --primary-bg-color: rgb(31, 31, 31);
+    --primary-bg-color-active: rgb(22, 22, 22);
+    --dark-bg-color: rgb(24, 24, 24);
+    --secondary-bg-color: #ffffff;
+    --secondary-bg-opacity-color: #ffffff36;
+    --bg-card-background: rgba(37, 37, 37, .95);
+    --border-color: #929292;
+    --error-color: #fe5b00;
+    --accent-color: #d38c37;
+    --second-text-color: #dcdcdc;
+    --font-family: "GT America LC", Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+*{
+  margin:0;
+  padding:0;
+  font-family: var(--font-family);
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  padding: 30px 0;
+  background:rgb(192, 188, 188,0.2);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16.35px;
+  letter-spacing: .1em;
+  text-align: center;
+  align-items: center;
+  z-index: 9;
+  color:white;
+}
+
+.videos{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+.flex{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:100%;
+}
+
+.left{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.right{
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  width:60%;
+
+}
+
+.content{
+  position:absolute;
+  top:60%;
+  left:4%;
+  display:block;
+  bottom:4%;
+  color:white;
+}
+.content1{
+  content:"";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(29, 29, 29, 0.95) 92.67%, rgb(31, 31, 31));
+}
+.heroLogo{
+  width: clamp(220px, 20.712cqi + 142.33px, 540px);
+  height: auto;
+  margin-bottom: clamp(15px, 0.9709cqi + 11.3592px, 30px);
+}
+
+.description{
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(14px, 1.0356cqi + 10.1165px, 30px);
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.25;
+  text-transform: uppercase;
+  max-width: clamp(400px, 29.7735cqi + 288.349px, 837px);
+}
