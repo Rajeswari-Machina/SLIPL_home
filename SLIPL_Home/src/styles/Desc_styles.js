@@ -23,6 +23,7 @@ export const styles={
 
   },
   subTitle:{
+    color:"var(--primary-color)",
     textTransform: "uppercase",
     fontSize:"26px",
   },

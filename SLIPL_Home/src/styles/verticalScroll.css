@@ -1,9 +1,11 @@
 .vertical-scroll-container {
   display: flex;
   flex-direction: column;
-  gap: 6%;
+  align-items: center;
+  gap: 30%;
   overflow-y: scroll;
   overflow: scroll;
+  width:"40%";
   height: 80vh;
   padding: 40px;
   scroll-behavior: smooth;

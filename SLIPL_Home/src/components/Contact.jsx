@@ -7,8 +7,8 @@ export default function Contact(){
   const randomImage = images[Math.floor(Math.random() * images.length)];
 
   return (
-    <div style={{ ...styles.rowcontainer, backgroundColor: "black", borderRadius: "15px", width: "100%", marginTop:"2%", boxSizing: "border-box" }}>
-      <div style={{ padding: "20px", width: "60%" }}>
+    <div style={{ ...styles.rowcontainer, backgroundColor: "black", borderRadius: "15px", width: "100%", marginTop:"2%" }}>
+      <div style={{ padding: "10px", width: "50%" }}>
         <img src={randomImage} alt="team image" style={{ maxWidth: "100%", height: "auto" }} />
       </div>
       <div style={{ ...styles.colcontainer,width:"40%" }}>

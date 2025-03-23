@@ -5,10 +5,10 @@ export default function Projects(){
     <div style={{marginTop:"1%"}}>
       <p style={styles.title}>/ Studia 54 projects</p>
       <div style={{...styles.rowcontainer,alignItems:"flex-start"}}> 
-        <div style={{width:"70%"}}>
+        <div style={{width:"50%"}}>
           <VerticalScroll/>
         </div>
-        <div style={{...styles.colcontainer,width:"40%",padding:"4%",}}>
+        <div style={{...styles.colcontainer,width:"50%",padding:"12px",}}>
           <p style={{...styles.subTitle,width:"100%"}}>WE KNOW WHAT YOU NEED</p>
           <p style={styles.description}> 
           Executing projects across multiple countries requires flawless organization and control. 

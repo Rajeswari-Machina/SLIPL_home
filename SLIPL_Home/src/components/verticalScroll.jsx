@@ -1,12 +1,14 @@
 import React from "react";
 import "../styles/verticalScroll.css";
-import image1 from '../assets/images/corouselImages/image1.png';
+import image1 from "../assets/images/verticalCorouselimages/thumbnail_1.jpg";
+import image2 from "../assets/images/verticalCorouselimages/thumbnail_2.png";
+import image3 from "../assets/images/verticalCorouselimages/thumbnail_3.jpg";
 
 const VerticalScroll = () => {
   const images = [
     image1,
-    image1,
-    image1,
+    image2,
+    image3,
   ];
 
   return (
