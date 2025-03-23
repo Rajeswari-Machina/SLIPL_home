@@ -4,7 +4,7 @@ import heroLogo from '../assets/images/herologo.svg';
 function Hero(){
   return (
     <>
-    <div>
+    <div style={{width:"100%"}}>
       <video
         src={video1}
         autoPlay

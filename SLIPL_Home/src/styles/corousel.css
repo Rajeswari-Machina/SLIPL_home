@@ -1,8 +1,7 @@
 .slider{
   height:100%;
-  margin:auto;
   position:relative;
-  max-width:100%;
+  max-width:80%;
   overflow:hidden;
   width:100%;
   display:grid;
@@ -11,7 +10,7 @@
 
 .slidertrack{
   display:flex;
-  width:calc(100%*6);
+  width:calc(100%*3);
   animation:scroll 40s linear infinite;
 }
 
@@ -39,9 +38,9 @@ img{
   border-radius: 5%;
 }
 
-/* img:hover{
-  transform:translateZ(20px);
-} */
+img:hover{
+  animation-play-state: paused;
+} 
 
 
 .slider::after{
