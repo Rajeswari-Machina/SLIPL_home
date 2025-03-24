@@ -6,8 +6,8 @@ import prev2 from '../assets/images/prev2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function UncontrolledExample() {
-  return(
-    <Carousel>
+  return (
+    <Carousel controls={false} indicators={false} interval={3000} pause={false}>
       <Carousel.Item>
         <img
           className="d-block w-100"
